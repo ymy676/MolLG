@@ -65,7 +65,7 @@ train:
   gamma_warmup_epochs: 25
 
 eval:
-  epochs: 150
+  epochs: 75
   batch_size: 64
   
 

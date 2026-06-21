@@ -192,17 +192,17 @@ TASK_CONFIG = {
 TASK_CONFIG2 = {"muv":        {"task": "multitask_binary", "metric": "rocauc"},
                 "hiv":        {"task": "binary", "metric": "rocauc"}}
 molclr_baseline = {
-    "BBBP": 73.3,
-    "Tox21": 74.1,
-    "ToxCast": 65.9,
-    "SIDER": 61.2,
-    "ClinTox": 89.8,
-    "BACE": 82.8,
-    "MUV": 78.9,
-    "HIV": 77.4,
-    "ESOL": 1.113,
-    "FreeSolv": 2.301,
-    "Lipo": 0.789,
+    "bbbp": 73.3,
+    "tox21": 74.1,
+    "toxcast": 65.9,
+    "sider": 61.2,
+    "clintox": 89.8,
+    "bace": 82.8,
+    "muv": 78.9,
+    "hiv": 77.4,
+    "esol": 1.113,
+    "freesolv": 2.301,
+    "lipo": 0.789,
 }
 def evaluate_all(encoder, config, logger, writer, lr, weight_decay, dropout, batchsize, task1 = True):
     epochs = config.eval.epochs
