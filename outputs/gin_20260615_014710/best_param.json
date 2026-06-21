@@ -1,0 +1,9 @@
+{
+  "best_improvement": -0.6639315239048367,
+  "best_param": {
+    "lr": 0.0001,
+    "dropout": 0.1,
+    "weight_decay": 1e-05,
+    "batch_size": 32
+  }
+}

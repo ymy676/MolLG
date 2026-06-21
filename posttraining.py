@@ -46,9 +46,9 @@ def get_writer(save_dir):
 
 
 paths = [
-    "gin_20260607_183933",
-    "gin_20260612_025604",
-    "gin_20260614_022048",
+    #"gin_20260607_183933",
+    #"gin_20260612_025604",
+    #"gin_20260614_022048",
     "gin_20260615_014710",
     "gin_20260615_083150",
     "gin_20260616_020430"
@@ -151,6 +151,7 @@ if __name__ == "__main__":
         # =========================
         # 用 best param 跑 HIV / MUV
         # =========================
+        """
         lr, drop, wd, bs = best_param
 
         checkpoint = torch.load(
@@ -185,3 +186,4 @@ if __name__ == "__main__":
                 "final_improvement": float(improvement),
                 "final_results": results
             }, f, indent=2)
+            """
