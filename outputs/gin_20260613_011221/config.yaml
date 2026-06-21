@@ -1,0 +1,74 @@
+seed: 42
+
+experiment_name: gin
+
+dataset:
+  train_path: data/zinc/train.pt
+  val_path: data/zinc/val.pt
+  test_path: data/zinc/test.pt
+
+  batch_size: 512
+  num_workers: 0
+
+encoder:
+  m_type: gin
+  emb_dim: 300
+  out_dim: 256
+  num_layer: 5
+  drop_ratio: 0.2
+  pool: mean
+  encoding: true
+  pretrain: true
+
+
+node_decoder:
+  m_type: gin
+  emb_dim: 300
+  out_dim: 256
+  num_layer: 1
+  drop_ratio: 0.3
+  pool: mean
+  encoding: false
+  pretrain: true
+
+mae:
+  num_layers: 5
+  dec_in_dim: 300
+  node_mask_rate: 0.75
+  loss_fn: sce
+  alpha_l: 2
+  concat_hidden: false
+
+clr:
+  use_cosine_similarity: true
+  temperature: 0.2
+
+model:
+  num_layers: 5
+  emb_dim: 300
+  dec_in_dim: 300
+  node_mask_rate: 0.75
+  loss_fn: sce
+  alpha_l: 3
+  concat_hidden: false
+  gamma: 1.0
+
+
+train:
+  epochs: 200
+  lr: 1.0e-4
+  optimizer: AdamW
+  weight_decay: 1.0e-5
+  scheduler: Cosine
+  probe_freq: 5
+  gamma_scheduler: false
+  gamma_warmup_epochs: 25
+
+eval:
+  epochs: 150
+  batch_size: 64
+  
+
+save:
+  output_dir: outputs
+

@@ -1,0 +1,40 @@
+2026-06-11 02:09:15,817 - Epoch 1/200 - Train Loss: 3.0975 (Recon: 0.0969, CLR: 6.0012) - Val Loss: 2.9217 (Recon: 0.0000, CLR: 5.8433)
+2026-06-11 02:35:50,832 - Epoch 2/200 - Train Loss: 2.9000 (Recon: 0.0004, CLR: 5.7991) - Val Loss: 2.8848 (Recon: 0.0000, CLR: 5.7696)
+2026-06-11 03:01:45,883 - Epoch 3/200 - Train Loss: 2.8675 (Recon: 0.0002, CLR: 5.7344) - Val Loss: 2.8641 (Recon: 0.0000, CLR: 5.7283)
+2026-06-11 03:28:20,059 - Epoch 4/200 - Train Loss: 2.8503 (Recon: 0.0001, CLR: 5.7004) - Val Loss: 2.8560 (Recon: 0.0000, CLR: 5.7119)
+2026-06-11 03:54:58,568 - Epoch 5/200 - Train Loss: 2.8409 (Recon: 0.0001, CLR: 5.6816) - Val Loss: 2.8504 (Recon: 0.0000, CLR: 5.7007)
+2026-06-11 03:54:58,568 - Evaluating on bbbp...
+2026-06-11 03:55:00,570 - bbbp ROC-AUC: 0.7638
+2026-06-11 03:55:00,570 - Evaluating on bace...
+2026-06-11 03:55:02,343 - bace ROC-AUC: 0.7186
+2026-06-11 03:55:02,344 - Evaluating on clintox...
+2026-06-11 03:55:03,788 - clintox ROC-AUC: 0.6568
+2026-06-11 03:55:03,788 - Evaluating on freesolv...
+2026-06-11 03:55:03,999 - freesolv RMSE: 2.9474
+2026-06-11 03:55:04,000 - Evaluating on esol...
+2026-06-11 03:55:04,272 - esol RMSE: 2.4042
+2026-06-11 03:55:04,273 - Evaluating on lipo...
+2026-06-11 03:55:07,736 - lipo RMSE: 1.1387
+2026-06-11 03:55:07,736 - Unified Linear Probe Score: -0.7252
+2026-06-11 03:55:07,736 - New Best Probe Score: -0.7252
+2026-06-11 04:21:53,420 - Epoch 6/200 - Train Loss: 2.8333 (Recon: 0.0001, CLR: 5.6664) - Val Loss: 2.8433 (Recon: 0.0000, CLR: 5.6866)
+2026-06-11 04:48:59,492 - Epoch 7/200 - Train Loss: 2.8276 (Recon: 0.0001, CLR: 5.6551) - Val Loss: 2.8406 (Recon: 0.0000, CLR: 5.6811)
+2026-06-11 05:15:47,957 - Epoch 8/200 - Train Loss: 2.8214 (Recon: 0.0001, CLR: 5.6426) - Val Loss: 2.8355 (Recon: 0.0000, CLR: 5.6709)
+2026-06-11 05:42:33,917 - Epoch 9/200 - Train Loss: 2.8156 (Recon: 0.0000, CLR: 5.6312) - Val Loss: 2.8325 (Recon: 0.0000, CLR: 5.6651)
+2026-06-11 06:09:06,635 - Epoch 10/200 - Train Loss: 2.8110 (Recon: 0.0001, CLR: 5.6220) - Val Loss: 2.8264 (Recon: 0.0000, CLR: 5.6527)
+2026-06-11 06:09:06,635 - Evaluating on bbbp...
+2026-06-11 06:09:08,118 - bbbp ROC-AUC: 0.7470
+2026-06-11 06:09:08,118 - Evaluating on bace...
+2026-06-11 06:09:09,813 - bace ROC-AUC: 0.7505
+2026-06-11 06:09:09,813 - Evaluating on clintox...
+2026-06-11 06:09:11,082 - clintox ROC-AUC: 0.6226
+2026-06-11 06:09:11,082 - Evaluating on freesolv...
+2026-06-11 06:09:11,289 - freesolv RMSE: 3.9952
+2026-06-11 06:09:11,289 - Evaluating on esol...
+2026-06-11 06:09:11,521 - esol RMSE: 2.8533
+2026-06-11 06:09:11,521 - Evaluating on lipo...
+2026-06-11 06:09:15,199 - lipo RMSE: 1.1412
+2026-06-11 06:09:15,199 - Unified Linear Probe Score: -0.9783
+2026-06-11 06:36:05,640 - Epoch 11/200 - Train Loss: 2.8064 (Recon: 0.0000, CLR: 5.6127) - Val Loss: 2.8229 (Recon: 0.0000, CLR: 5.6459)
+2026-06-11 07:02:22,783 - Epoch 12/200 - Train Loss: 2.8022 (Recon: 0.0000, CLR: 5.6044) - Val Loss: 2.8234 (Recon: 0.0000, CLR: 5.6468)
+2026-06-11 07:29:00,288 - Epoch 13/200 - Train Loss: 2.8003 (Recon: 0.0000, CLR: 5.6006) - Val Loss: 2.8175 (Recon: 0.0000, CLR: 5.6349)
