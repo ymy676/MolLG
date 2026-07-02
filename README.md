@@ -1,5 +1,5 @@
 # Moleculer Property Prediction via Local-Global Self-supervised Graph Representation Learning
-<img src="figs/pipeline.png" width="70%">
+<img src="figs/pipeline.png" width="100%">
 
 Implementation of **MolLG**:Moleculer Property Prediction via Local-Global Self-supervised Graph Representation Learning. In this work, we introduced a novel framework for molecular representation learning via dual-objective pre-training. **MolLG** greatly boosts the performance of GNN models on various downstream molecular property prediction benchmarks.
 ## Getting Started
