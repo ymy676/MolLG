@@ -20,7 +20,6 @@ from models.builder import build_optimizer, build_scheduler
 from utils.checkpoint import save_checkpoint, load_checkpoint
 
 from utils import parse_args, create_experiment_dir
-from finetune import evaluate_all
 def start_from_checkpoint(path):
     checkpoint = torch.load(path, weights_only=False)
     model = checkpoint['model']

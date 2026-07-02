@@ -8,7 +8,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression, LogisticRegression
 from sklearn.multioutput import MultiOutputClassifier
-from finetune import get_loaders
+from utils.finetuner import get_loaders
 
 class mollg_trainer:
     def __init__(

@@ -30,3 +30,7 @@ tensorboard/
 
 # vscode
 .vscode/
+
+tsne_figures/
+graphing.py
+*.ipynb
